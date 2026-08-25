@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f6fa;
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-card h2 {
+    margin: 15px 0;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+
+body {
+        background-image: url("/static/images/background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 16px;
+    transition: 0.25s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-icon {
+    font-size: 42px;
+}
+
+.dashboard-card h2 {
+    font-size: 36px;
+}
+
+.card {
+    border-radius: 16px;
+}
