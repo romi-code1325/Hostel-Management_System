@@ -1,3 +1,9 @@
+import streamlit as st
+
+st.title("Hostel Management System")
+
+st.write("Welcome to the Hostel Management System")
+
 from flask import Flask, render_template, request, redirect, url_for
 from flask_login import (
     LoginManager,
